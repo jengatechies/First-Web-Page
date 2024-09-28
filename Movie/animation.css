@@ -1,0 +1,16 @@
+.button {
+    width: 100px;
+    height: 100px;
+    background: #ff3700;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    animation-name: main;
+    animation-duration: 20s;
+    animation-delay: 2s;
+    
+}
+@keyframes main{
+    from { background-color: #ff3700;}
+    to {background-color: rgb(15, 223, 223);}
+} 

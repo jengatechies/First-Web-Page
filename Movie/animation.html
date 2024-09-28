@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="animation.css">
+<script>    
+    function countToTen()
+    {var count = 0;      
+    while (count < 15)
+     {count++; document.getElementById("theCount").innerHTML += count + "<br>";
+      } }
+     
+</script> 
+</head>
+
+<body onload="countToTen();"> 
+       <h1>Let's Count to 10 with JavaScript!</h1> 
+        <p id="theCount"></p>
+
+        <button id="button" onMouseOver="alert ('Hello World!');">
+            Click Here!
+        </button>
+</body>
+</html>
